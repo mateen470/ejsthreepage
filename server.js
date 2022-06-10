@@ -1,19 +1,28 @@
 const express = require("express");
-const cors = require("cors");
 
 // APP CONFIGURATION
 const app = express();
 
-// MIDDLEWARES
-app.use(express.json());
-app.use(cors());
-
 // PORT
 const PORT = process.env.PORT || 8080;
 
+// SETTING VIEW ENGINE
+app.set("view engine", "ejs");
+app.use(express.static("."));
+
 // HOME ADDRESS
 app.get("/", (req, res) => {
-  res.send("SERVER STARTED");
+  res.render("Home");
+});
+
+// CONTACT PAGE ADDRESS
+app.get("/contact", (req, res) => {
+  res.render("Contact");
+});
+
+// DETAIL PAGE ADDRESS
+app.get("/details", (req, res) => {
+  res.render("Details");
 });
 
 // SERVER LISTENING

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../views/Head.ejs')%>
+    <title>Contact</title>
+  </head>
+  <body>
+    <%-include('../views/Navbar.ejs')%>
+    <div class="contact-main">
+        <span>fill the form below</span>
+      <div class="input-row">
+          <label for="name" >Name</label>
+          <div class="nme">
+            <input type="text" id="name" />
+          </div>
+          <label for="email">Email</label>
+          <div class="emal">
+            <input type="email" id="email" />
+          </div>
+          <label for="country">Your Country</label>
+          <div class="cntry">
+            <input type="text" id="countrty" />
+          </div>
+          <label for="description">Tour Description</label>
+          <div class="desc">
+            <input type="text" id="description" />
+          </div>
+      </div>
+      <a type="button" class="contact-button btn">Submit</a>
+    </div>
+    <footer><%- include('../views/footer.ejs')%></footer>
+  </body>
+</html>

@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+
+  font-family: "Cairo", sans-serif;
+}
+.nav-top {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.445);
+  box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.491);
+  font-size: 2rem;
+  width: 80rem;
+}
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-div h1 {
+  font-weight: bolder;
+  font-size: 4rem;
+  margin-right: 2rem;
+}
+.logo {
+  height: 100px;
+}
+
+.main-div {
+  background-image: url("/assets/img/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.main-div h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: bolder;
+  text-shadow: 4px 4px black;
+  display: inline-block;
+  margin-top: 13rem;
+  margin-left: 15rem;
+}
+.main-div span {
+  text-shadow: 3px 3px black;
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+  margin-left: 24rem;
+}
+.main-button {
+  color: white;
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: -22rem;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  border: transparent;
+  background-color: rgba(0, 128, 128, 0.717);
+  transition: 1.5s;
+}
+.main-div a:hover {
+  background-color: teal;
+  color: white;
+  box-shadow: 0px 5px 50px turquoise inset, 0px 5px 50px turquoise,
+    0px 5px 50px turquoise inset, 0px 5px 50px turquoise;
+}
+footer {
+  position: fixed;
+  bottom: -15px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  overflow-x: hidden;
+}
+.detail-main {
+  background-image: url("/assets/img/details.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.row {
+  width: 65rem;
+}
+.first-box {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 8rem;
+}
+.second-box {
+  margin-left: 8rem;
+  margin-top: 4rem;
+  display: flex;
+  margin-bottom: 5rem;
+}
+.card {
+  box-shadow: 5px 5px 5px 5px black;
+}
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0.5px 0.5px teal;
+}
+.contact-main {
+  background-image: url("/assets/img/contact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.input-row {
+  display: inline-block;
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: 23rem;
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.546),
+    10px 10px 70px rgba(0, 0, 0, 0.546), inset 5px 5px 10px rgba(0, 0, 0, 0.546),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.546),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.546);
+  border-radius: 30px;
+}
+.contact-main span {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  padding-top: 8rem;
+  margin-left: 25rem;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+label {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+
+  font-family: "Cairo", sans-serif;
+}
+input {
+    background-color: rgba(0, 0, 0, 0.546);
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.546),
+    10px 10px 70px rgba(0, 0, 0, 0.546), inset 5px 5px 10px rgba(0, 0, 0, 0.546),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.546),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.546);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 30rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    border: transparent;
+    color: white;
+}
+.contact-button {
+    font-family: "Cairo", sans-serif;
+    color: white;
+  position: absolute;
+   margin-top: 33rem;
+    margin-left: 36rem; 
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border: transparent;
+  background-color: rgba(0, 128, 128, 0.717);
+  transition: 1.5s;
+}
+.contact-main a:hover {
+  background-color: teal;
+  color: white;
+  box-shadow: 0px 5px 50px turquoise inset, 0px 5px 50px turquoise,
+    0px 5px 50px turquoise inset, 0px 5px 50px turquoise;
+}
